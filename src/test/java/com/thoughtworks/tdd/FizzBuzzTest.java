@@ -24,6 +24,14 @@ public class FizzBuzzTest {
         assertThat(expectedResult, is(result));
     }
 
+    @Test
+    public void fizz_buzz_test3(){
+        int num = 5;
+        String expectedResult = "Buzz";
+        String result = fizzBuzz.fizzBuzz(num);
+        assertThat(expectedResult, is(result));
+    }
+
 
 
 }
